@@ -1,0 +1,6 @@
+{
+  "name": "Azad Taillors",
+  "description": "Offline-first tailoring shop management app for Azad Taillors with customers, versioned measurements, orders, integer payments, ready-made inventory, expenses, English/Sindhi localization, and local backup & restore.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

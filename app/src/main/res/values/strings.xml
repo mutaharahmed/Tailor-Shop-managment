@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- ========================================================= -->
+    <!-- 1. APP IDENTITY & NAVIGATION                              -->
+    <!-- ========================================================= -->
+    <string name="app_name">Azad Taillors</string>
+    <string name="app_tagline">Offline Tailoring &amp; Garment Management</string>
+    <string name="nav_dashboard">Dashboard</string>
+    <string name="nav_orders">Orders</string>
+    <string name="nav_customers">Customers</string>
+    <string name="nav_inventory">Inventory</string>
+    <string name="nav_more">More</string>
+    <string name="currency_code">PKR</string>
+    <string name="currency_format">PKR %d</string>
+
+    <!-- ========================================================= -->
+    <!-- 2. COMMON ACTIONS, LABELS & VALIDATION                    -->
+    <!-- ========================================================= -->
+    <string name="action_save">Save</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="action_edit">Edit</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_confirm">Confirm</string>
+    <string name="action_back">Back</string>
+    <string name="action_search">Search</string>
+    <string name="action_add">Add</string>
+    <string name="action_close">Close</string>
+    <string name="action_clear">Clear</string>
+    <string name="action_view_all">View All</string>
+    <string name="action_reuse">Reuse</string>
+    <string name="label_all">All</string>
+    <string name="label_notes">Notes</string>
+    <string name="label_date">Date</string>
+    <string name="label_status">Status</string>
+    <string name="label_required_field">This field is required</string>
+    <string name="label_invalid_number">Enter a valid whole number</string>
+    <string name="label_saved_successfully">Saved successfully</string>
+    <string name="label_offline_badge">Offline Mode</string>
+    <string name="confirm_delete_title">Confirm Action</string>
+    <string name="confirm_destructive_message">Are you sure you want to proceed? This action cannot be undone.</string>
+
+    <!-- ========================================================= -->
+    <!-- 3. DASHBOARD                                              -->
+    <!-- ========================================================= -->
+    <string name="dashboard_title">Azad Taillors</string>
+    <string name="dashboard_subtitle">Shop Overview</string>
+    <string name="dashboard_todays_orders">Today\'s Orders</string>
+    <string name="dashboard_in_progress">In Progress</string>
+    <string name="dashboard_ready_orders">Ready Orders</string>
+    <string name="dashboard_overdue_orders">Overdue Orders</string>
+    <string name="dashboard_todays_payments">Today\'s Payments</string>
+    <string name="dashboard_outstanding_balances">Outstanding Balance</string>
+    <string name="dashboard_todays_expenses">Today\'s Expenses</string>
+    <string name="dashboard_monthly_expenses">Month Expenses</string>
+    <string name="dashboard_low_stock">Low Stock Items</string>
+    <string name="dashboard_quick_actions">Quick Actions</string>
+    <string name="quick_new_order">New Order</string>
+    <string name="quick_new_customer">New Customer</string>
+    <string name="quick_record_payment">Record Payment</string>
+    <string name="quick_add_expense">Add Expense</string>
+    <string name="quick_inventory_sale">Quick Sale</string>
+    <string name="quick_backup_now">Backup Now</string>
+    <string name="dashboard_recent_orders">Recent Active Orders</string>
+    <string name="dashboard_no_active_orders">No active orders right now. Tap New Order to get started.</string>
+    <string name="alert_backup_failed_banner">Last local backup failed or is overdue. Open Backup &amp; Recovery to protect your records.</string>
+    <string name="alert_low_storage_banner">Device storage is running low. Free up space or export a backup externally.</string>
+
+    <!-- ========================================================= -->
+    <!-- 4. CUSTOMERS                                              -->
+    <!-- ========================================================= -->
+    <string name="customers_title">Customers</string>
+    <string name="customers_search_hint">Search by name, phone, or ID</string>
+    <string name="customer_add_title">Add Customer</string>
+    <string name="customer_edit_title">Edit Customer</string>
+    <string name="customer_name_label">Customer Name *</string>
+    <string name="customer_phone_label">Phone Number *</string>
+    <string name="customer_address_label">Address</string>
+    <string name="customer_notes_label">Customer Notes</string>
+    <string name="customer_id_label">Customer ID</string>
+    <string name="customer_duplicate_warning_title">Possible Duplicate Customer</string>
+    <string name="customer_duplicate_warning_body">An existing profile shares this phone number or similar name (%1$s). Family members can share a phone number—you can still save this separate profile.</string>
+    <string name="customer_save_anyway">Save as Separate Profile</string>
+    <string name="customer_empty_title">No Customers Yet</string>
+    <string name="customer_empty_subtitle">Add your first customer profile to track measurements, orders, and payments.</string>
+    <string name="customer_tab_overview">Overview</string>
+    <string name="customer_tab_orders">Orders</string>
+    <string name="customer_tab_measurements">Measurements</string>
+    <string name="customer_tab_payments">Payments</string>
+    <string name="customer_total_orders">Total Orders</string>
+    <string name="customer_total_paid">Total Paid</string>
+    <string name="customer_outstanding">Balance Due</string>
+    <string name="customer_new_order_btn">New Order for Customer</string>
+    <string name="customer_new_measurement_btn">New Measurement</string>
+
+    <!-- ========================================================= -->
+    <!-- 5. MEASUREMENTS                                           -->
+    <!-- ========================================================= -->
+    <string name="measurements_title">Measurements</string>
+    <string name="measurement_new_version_title">New Measurement Version</string>
+    <string name="measurement_reuse_prompt_title">Reuse Previous Measurements?</string>
+    <string name="measurement_reuse_prompt_body">Latest saved %1$s measurements are Version %2$d (%3$s). Confirm to reuse them unchanged, or create a new version if measurements changed.</string>
+    <string name="measurement_confirm_reuse">Confirm Reuse (v%1$d)</string>
+    <string name="measurement_create_new_version">Create New Version (v%1$d)</string>
+    <string name="measurement_version_badge">v%1$d</string>
+    <string name="measurement_unit_label">Unit</string>
+    <string name="unit_inches">Inches (in)</string>
+    <string name="unit_centimeters">Centimetres (cm)</string>
+    <string name="measurement_garment_type">Garment Type</string>
+    <string name="measurement_custom_garment_hint">Custom Garment Name</string>
+    <string name="measurement_add_custom_field">Add Custom Field</string>
+    <string name="measurement_field_name_hint">Field Name (e.g. Daman / Cuff)</string>
+    <string name="measurement_field_value_hint">Value</string>
+    <string name="measurement_immutability_note">Saved versions are locked for order history accuracy. Saving edits creates Version %1$d.</string>
+    <string name="measurement_empty">No measurement profiles saved for this customer yet.</string>
+    <string name="garment_shalwar_kameez">Shalwar Kameez</string>
+    <string name="garment_shirt">Shirt</string>
+    <string name="garment_pant_trouser">Pant / Trouser</string>
+    <string name="garment_waistcoat">Waistcoat</string>
+    <string name="garment_coat_jacket">Coat / Jacket</string>
+    <string name="garment_kurta">Kurta</string>
+    <string name="garment_custom">Custom Garment</string>
+
+    <!-- Standard Measurement Fields -->
+    <string name="m_length">Length</string>
+    <string name="m_shoulder">Shoulder</string>
+    <string name="m_sleeve">Sleeve</string>
+    <string name="m_chest">Chest</string>
+    <string name="m_waist">Waist</string>
+    <string name="m_hip">Hip</string>
+    <string name="m_collar">Collar / Neck</string>
+    <string name="m_cuff">Cuff</string>
+    <string name="m_daman">Daman / Hem</string>
+    <string name="m_armhole">Armhole</string>
+    <string name="m_shalwar_length">Shalwar / Trouser Length</string>
+    <string name="m_pancha">Pancha / Bottom Opening</string>
+    <string name="m_thigh">Thigh</string>
+    <string name="m_inseam">Inseam</string>
+
+    <!-- ========================================================= -->
+    <!-- 6. TAILORING ORDERS & PREFERENCES                         -->
+    <!-- ========================================================= -->
+    <string name="orders_title">Tailoring Orders</string>
+    <string name="orders_search_hint">Search order # or customer</string>
+    <string name="order_create_title">Create Tailoring Order</string>
+    <string name="order_edit_title">Edit Order %1$s</string>
+    <string name="order_detail_title">Order %1$s</string>
+    <string name="order_number_label">Order No.</string>
+    <string name="order_select_customer">Select Customer *</string>
+    <string name="order_quantity_label">Quantity *</string>
+    <string name="order_stitching_price_label">Total Stitching Price (PKR) *</string>
+    <string name="order_advance_payment_label">Initial Advance Payment (PKR)</string>
+    <string name="order_remaining_balance_label">Remaining Balance</string>
+    <string name="order_date_label">Order Date</string>
+    <string name="order_delivery_date_label">Delivery Date</string>
+    <string name="order_overdue_badge">OVERDUE</string>
+    <string name="order_preferences_title">Tailoring &amp; Design Preferences</string>
+    <string name="pref_collar_style">Collar Style</string>
+    <string name="pref_front_design">Front Design / Patti</string>
+    <string name="pref_cuffs">Cuffs</string>
+    <string name="pref_pockets">Pockets</string>
+    <string name="pref_sleeves">Sleeves</string>
+    <string name="pref_bottom_style">Bottom / Daman Style</string>
+    <string name="pref_fit">Fit</string>
+    <string name="pref_embroidery">Embroidery</string>
+    <string name="pref_additional_instructions">Additional Instructions</string>
+    <string name="pref_add_custom_option">Add Custom Design Option</string>
+    <string name="pref_custom_option_name">Option Label</string>
+    <string name="pref_custom_option_value">Option Value</string>
+    <string name="orders_empty_title">No Orders Found</string>
+    <string name="orders_empty_subtitle">Create a new tailoring order or adjust your filter.</string>
+    <string name="order_status_change_confirm">Update status to %1$s?</string>
+
+    <!-- Order Statuses -->
+    <string name="status_draft">Draft</string>
+    <string name="status_confirmed">Confirmed</string>
+    <string name="status_in_progress">In Progress</string>
+    <string name="status_ready">Ready</string>
+    <string name="status_delivered">Delivered</string>
+    <string name="status_cancelled">Cancelled</string>
+    <string name="filter_overdue">Overdue</string>
+
+    <!-- ========================================================= -->
+    <!-- 7. PAYMENTS & RECEIPTS                                    -->
+    <!-- ========================================================= -->
+    <string name="payments_title">Payments &amp; Receipts</string>
+    <string name="payment_record_title">Record Payment</string>
+    <string name="payment_refund_title">Issue Refund / Correction</string>
+    <string name="payment_amount_label">Amount (PKR) *</string>
+    <string name="payment_type_label">Transaction Type</string>
+    <string name="payment_method_label">Payment Method</string>
+    <string name="payment_other_method_hint">Specify Payment Method</string>
+    <string name="payment_note_hint">Note / Reference</string>
+    <string name="payment_receipt_title">Payment Receipt</string>
+    <string name="payment_receipt_number">Receipt No.</string>
+    <string name="payment_history_title">Payment History</string>
+    <string name="payment_history_immutable_note">Posted payments cannot be deleted. Use Refund / Correction to adjust mistakes.</string>
+    <string name="payment_duplicate_confirm_title">Possible Repeat Payment</string>
+    <string name="payment_duplicate_confirm_body">A payment of PKR %1$d via %2$s was just recorded for this order. Is this a legitimate separate installment?</string>
+    <string name="payment_exceeds_balance_warning">Payment exceeds remaining balance of PKR %1$d.</string>
+    <string name="payment_total_paid">Total Paid</string>
+    <string name="payment_net_paid">Net Collected</string>
+    <string name="payment_type_advance">Advance</string>
+    <string name="payment_type_installment">Installment</string>
+    <string name="payment_type_final">Final Settlement</string>
+    <string name="payment_type_refund">Refund</string>
+    <string name="payment_type_adjustment">Adjustment</string>
+    <string name="method_cash">Cash</string>
+    <string name="method_bank_transfer">Bank Transfer</string>
+    <string name="method_mobile_wallet">Mobile Wallet (JazzCash/Easypaisa)</string>
+    <string name="method_card">Card</string>
+    <string name="method_other">Other</string>
+
+    <!-- ========================================================= -->
+    <!-- 8. READY-MADE INVENTORY                                   -->
+    <!-- ========================================================= -->
+    <string name="inventory_title">Ready-Made Inventory</string>
+    <string name="inventory_search_hint">Search product, SKU, or colour</string>
+    <string name="inventory_add_product">Add Product</string>
+    <string name="inventory_edit_product">Edit Product</string>
+    <string name="product_name_label">Product Name *</string>
+    <string name="product_category_label">Category *</string>
+    <string name="product_custom_category_hint">Custom Category Name</string>
+    <string name="product_size_label">Size</string>
+    <string name="product_color_label">Colour</string>
+    <string name="product_cost_price_label">Cost Price (PKR) *</string>
+    <string name="product_selling_price_label">Selling Price (PKR) *</string>
+    <string name="product_quantity_label">Quantity in Stock *</string>
+    <string name="product_low_stock_threshold">Low-Stock Alert Threshold</string>
+    <string name="product_low_stock_badge">LOW STOCK</string>
+    <string name="product_out_of_stock_badge">OUT OF STOCK</string>
+    <string name="inventory_sell_btn">Sell</string>
+    <string name="inventory_restock_btn">Restock</string>
+    <string name="inventory_adjust_btn">Adjust</string>
+    <string name="inventory_movements_title">Stock Movement Ledger</string>
+    <string name="inventory_empty_title">No Products in Inventory</string>
+    <string name="inventory_empty_subtitle">Add ready-made shirts, trousers, jackets, or sweaters to track stock and sales.</string>
+    <string name="category_shirts">Shirts</string>
+    <string name="category_pants_trousers">Pants &amp; Trousers</string>
+    <string name="category_jackets">Jackets</string>
+    <string name="category_sweaters">Sweaters</string>
+    <string name="category_custom">Custom Category</string>
+    <string name="movement_initial">Initial Stock</string>
+    <string name="movement_restock">Restock</string>
+    <string name="movement_sale">Sale</string>
+    <string name="movement_return">Customer Return</string>
+    <string name="movement_adjustment">Stock Adjustment</string>
+    <string name="insufficient_stock_error">Not enough stock available (%1$d remaining).</string>
+
+    <!-- ========================================================= -->
+    <!-- 9. EXPENSES & REPORTS                                     -->
+    <!-- ========================================================= -->
+    <string name="more_title">Finance, Backup &amp; Settings</string>
+    <string name="expenses_title">Shop Expenses</string>
+    <string name="expense_add_title">Add Expense</string>
+    <string name="expense_title_label">Expense Description *</string>
+    <string name="expense_category_label">Category</string>
+    <string name="expense_amount_label">Amount (PKR) *</string>
+    <string name="expense_period_daily">Today</string>
+    <string name="expense_period_weekly">Last 7 Days</string>
+    <string name="expense_period_monthly">This Month</string>
+    <string name="expense_cat_rent">Shop Rent</string>
+    <string name="expense_cat_electricity">Electricity / Bills</string>
+    <string name="expense_cat_supplies">Thread, Buttons &amp; Supplies</string>
+    <string name="expense_cat_wages">Tailor / Staff Wages</string>
+    <string name="expense_cat_maintenance">Machine Maintenance</string>
+    <string name="expense_cat_hospitality">Tea &amp; Hospitality</string>
+    <string name="expense_cat_other">Other</string>
+    <string name="expenses_empty">No expenses recorded for this period.</string>
+
+    <string name="reports_title">Business Reports</string>
+    <string name="report_sales_summary">Sales &amp; Revenue Summary</string>
+    <string name="report_tailoring_revenue">Tailoring Orders Value</string>
+    <string name="report_payments_collected">Payments Collected</string>
+    <string name="report_readymade_sales">Ready-Made Sales</string>
+    <string name="report_total_expenses">Total Expenses</string>
+    <string name="report_net_cash_flow">Net Cash Summary</string>
+    <string name="report_estimated_profit">Estimated Net (Collected + Sales - Expenses)</string>
+    <string name="report_outstanding_orders">Outstanding Balances</string>
+    <string name="report_pending_orders">Pending Orders</string>
+    <string name="report_overdue_orders">Overdue Orders</string>
+    <string name="report_inventory_summary">Inventory Valuation</string>
+    <string name="report_inventory_units">Total Units</string>
+    <string name="report_inventory_cost_value">Cost Value</string>
+    <string name="report_inventory_retail_value">Retail Value</string>
+
+    <!-- ========================================================= -->
+    <!-- 10. BACKUP & RECOVERY                                     -->
+    <!-- ========================================================= -->
+    <string name="backup_title">Backup &amp; Recovery</string>
+    <string name="backup_warning_card_title">Important Local Backup Notice</string>
+    <string name="backup_warning_card_body">Backups saved on this phone cannot protect against physical loss, theft, or hardware damage. No backup system can guarantee zero data loss unless copies are kept externally. Export a backup to external storage or an SD card regularly.</string>
+    <string name="backup_create_now">Create Local Backup Now</string>
+    <string name="backup_export_external">Export Backup File (.atbackup)</string>
+    <string name="backup_import_external">Import &amp; Preview Backup File</string>
+    <string name="backup_auto_schedule_title">Automatic Local Backup</string>
+    <string name="backup_schedule_daily">Daily</string>
+    <string name="backup_schedule_every_3_days">Every 3 Days</string>
+    <string name="backup_schedule_weekly">Weekly</string>
+    <string name="backup_schedule_off">Off</string>
+    <string name="backup_free_space">Available Storage: %1$s</string>
+    <string name="backup_last_status">Last Backup: %1$s</string>
+    <string name="backup_never">Never</string>
+    <string name="backup_generations_title">Local Backup Generations</string>
+    <string name="backup_safety_badge">Safety Pre-Restore</string>
+    <string name="backup_auto_badge">Auto</string>
+    <string name="backup_manual_badge">Manual</string>
+    <string name="backup_restore_btn">Restore</string>
+    <string name="backup_preview_title">Restore Preview</string>
+    <string name="backup_preview_warning">Restoring will replace current shop records with this backup. A safety backup of your current data will be created automatically first.</string>
+    <string name="backup_confirm_restore">Create Safety Backup &amp; Restore</string>
+    <string name="backup_corrupted_title">Backup Validation Failed</string>
+    <string name="backup_corrupted_body">This file failed SQLite integrity or SHA-256 checksum checks and cannot be restored. Your current shop data was not modified.</string>
+    <string name="backup_only_valid_guard">Cannot delete the only remaining valid local backup.</string>
+    <string name="backup_restore_success">Database restored successfully. Safety backup saved.</string>
+
+    <!-- ========================================================= -->
+    <!-- 11. SETTINGS & LANGUAGE                                   -->
+    <!-- ========================================================= -->
+    <string name="settings_title">Shop &amp; Language Settings</string>
+    <string name="settings_language_title">App Language</string>
+    <string name="language_english">English</string>
+    <string name="language_sindhi">سنڌي (Sindhi)</string>
+    <string name="settings_default_unit">Default Measurement Unit</string>
+    <string name="settings_shop_details">Shop Receipt Details</string>
+    <string name="settings_shop_name">Shop Name</string>
+    <string name="settings_shop_phone">Shop Phone</string>
+    <string name="settings_shop_address">Shop Address</string>
+    <string name="settings_low_stock_default">Default Low-Stock Threshold</string>
+</resources>

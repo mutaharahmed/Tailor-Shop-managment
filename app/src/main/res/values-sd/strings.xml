@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- ========================================================= -->
+    <!-- SINDHI LOCALIZATION (Reviewable Section-by-Section)       -->
+    <!-- Notes for Sindhi reviewer:                                -->
+    <!-- - Standard Sindhi Unicode (Arabic script, RTL).           -->
+    <!-- - Currency code "PKR" and numeric codes kept readable.    -->
+    <!-- ========================================================= -->
+
+    <!-- 1. APP IDENTITY & NAVIGATION -->
+    <string name="app_name">آزاد ٽيلرز</string>
+    <string name="app_tagline">آفلائين ٽيلرنگ ۽ دڪان جو نظام</string>
+    <string name="nav_dashboard">ڊيش بورڊ</string>
+    <string name="nav_orders">آرڊر</string>
+    <string name="nav_customers">گراهڪ</string>
+    <string name="nav_inventory">اسٽاڪ</string>
+    <string name="nav_more">وڌيڪ</string>
+    <string name="currency_code">PKR</string>
+    <string name="currency_format">PKR %d</string>
+
+    <!-- 2. COMMON ACTIONS, LABELS & VALIDATION -->
+    <string name="action_save">محفوظ ڪريو</string>
+    <string name="action_cancel">رد ڪريو</string>
+    <string name="action_edit">ترميم ڪريو</string>
+    <string name="action_delete">ڊاهيو</string>
+    <string name="action_confirm">تصديق ڪريو</string>
+    <string name="action_back">واپس</string>
+    <string name="action_search">ڳولا</string>
+    <string name="action_add">شامل ڪريو</string>
+    <string name="action_close">بند ڪريو</string>
+    <string name="action_clear">صاف ڪريو</string>
+    <string name="action_view_all">سڀ ڏسو</string>
+    <string name="action_reuse">ٻيهر استعمال</string>
+    <string name="label_all">سڀ</string>
+    <string name="label_notes">نوٽس</string>
+    <string name="label_date">تاريخ</string>
+    <string name="label_status">صورتحال</string>
+    <string name="label_required_field">هي خانو ڀرڻ ضروري آهي</string>
+    <string name="label_invalid_number">صحيح مڪمل انگ داخل ڪريو</string>
+    <string name="label_saved_successfully">ڪاميابيءَ سان محفوظ ٿي ويو</string>
+    <string name="label_offline_badge">آفلائين موڊ</string>
+    <string name="confirm_delete_title">عمل جي تصديق</string>
+    <string name="confirm_destructive_message">ڇا توهان پڪ سان هي عمل ڪرڻ چاهيو ٿا؟ هي تبديلي واپس نه ٿي سگهندي.</string>
+
+    <!-- 3. DASHBOARD -->
+    <string name="dashboard_title">آزاد ٽيلرز</string>
+    <string name="dashboard_subtitle">دڪان جو خلاصو</string>
+    <string name="dashboard_todays_orders">اڄ جا آرڊر</string>
+    <string name="dashboard_in_progress">تياري هيٺ</string>
+    <string name="dashboard_ready_orders">تيار آرڊر</string>
+    <string name="dashboard_overdue_orders">مدت گذريل آرڊر</string>
+    <string name="dashboard_todays_payments">اڄ جي وصولي</string>
+    <string name="dashboard_outstanding_balances">باقي رهيل رقم</string>
+    <string name="dashboard_todays_expenses">اڄ جو خرچ</string>
+    <string name="dashboard_monthly_expenses">مهيني جو خرچ</string>
+    <string name="dashboard_low_stock">گهٽ اسٽاڪ</string>
+    <string name="dashboard_quick_actions">تڪڙا عمل</string>
+    <string name="quick_new_order">نئون آرڊر</string>
+    <string name="quick_new_customer">نئون گراهڪ</string>
+    <string name="quick_record_payment">ادائگي درج</string>
+    <string name="quick_add_expense">خرچ لکو</string>
+    <string name="quick_inventory_sale">تيار مال وڪرو</string>
+    <string name="quick_backup_now">فوري بيڪ اپ</string>
+    <string name="dashboard_recent_orders">تازا هلندڙ آرڊر</string>
+    <string name="dashboard_no_active_orders">هن وقت ڪو به هلندڙ آرڊر ناهي. شروع ڪرڻ لاءِ نئون آرڊر دٻايو.</string>
+    <string name="alert_backup_failed_banner">آخري مقامي بيڪ اپ ناڪام ٿيو يا دير ٿي وئي آهي. ڊيٽا بچائڻ لاءِ بيڪ اپ کوليو.</string>
+    <string name="alert_low_storage_banner">فون جي اسٽوريج گهٽ آهي. جاءِ خالي ڪريو يا بيڪ اپ ٻاهر محفوظ ڪريو.</string>
+
+    <!-- 4. CUSTOMERS -->
+    <string name="customers_title">گراهڪ</string>
+    <string name="customers_search_hint">نالو، فون يا ID سان ڳوليو</string>
+    <string name="customer_add_title">نئون گراهڪ شامل ڪريو</string>
+    <string name="customer_edit_title">گراهڪ جي معلومات تبديل ڪريو</string>
+    <string name="customer_name_label">گراهڪ جو نالو *</string>
+    <string name="customer_phone_label">فون نمبر *</string>
+    <string name="customer_address_label">پتو</string>
+    <string name="customer_notes_label">گراهڪ بابت نوٽس</string>
+    <string name="customer_id_label">گراهڪ ID</string>
+    <string name="customer_duplicate_warning_title">ممڪن ساڳيو گراهڪ</string>
+    <string name="customer_duplicate_warning_body">هن فون نمبر يا ملندڙ نالي سان اڳ ۾ هڪ پروفائيل موجود آهي (%1$s). گهر جا ڀاتي ساڳيو نمبر استعمال ڪري سگهن ٿا—توهان الڳ پروفائيل محفوظ ڪري سگهو ٿا.</string>
+    <string name="customer_save_anyway">الڳ پروفائيل طور محفوظ ڪريو</string>
+    <string name="customer_empty_title">اڃا ڪو گراهڪ ناهي</string>
+    <string name="customer_empty_subtitle">ماپ، آرڊر ۽ ادائگيون رکڻ لاءِ پهريون گراهڪ شامل ڪريو.</string>
+    <string name="customer_tab_overview">خلاصو</string>
+    <string name="customer_tab_orders">آرڊر</string>
+    <string name="customer_tab_measurements">ماپ</string>
+    <string name="customer_tab_payments">ادائگيون</string>
+    <string name="customer_total_orders">ڪل آرڊر</string>
+    <string name="customer_total_paid">ڪل ادا ڪيل</string>
+    <string name="customer_outstanding">باقي رقم</string>
+    <string name="customer_new_order_btn">گراهڪ لاءِ نئون آرڊر</string>
+    <string name="customer_new_measurement_btn">نئون ماپ</string>
+
+    <!-- 5. MEASUREMENTS -->
+    <string name="measurements_title">ماپ</string>
+    <string name="measurement_new_version_title">نئون ماپ نسخو</string>
+    <string name="measurement_reuse_prompt_title">پراڻو ماپ ٻيهر استعمال ڪجي؟</string>
+    <string name="measurement_reuse_prompt_body">%1$s جو تازو ماپ نسخو %2$d (%3$s) محفوظ آهي. جيڪڏهن ماپ ساڳيو آهي ته تصديق ڪريو، يا تبديليءَ لاءِ نئون نسخو ٺاهيو.</string>
+    <string name="measurement_confirm_reuse">ساڳيو ماپ رکو (v%1$d)</string>
+    <string name="measurement_create_new_version">نئون نسخو ٺاهيو (v%1$d)</string>
+    <string name="measurement_version_badge">v%1$d</string>
+    <string name="measurement_unit_label">ايڪو (Unit)</string>
+    <string name="unit_inches">انچ (in)</string>
+    <string name="unit_centimeters">سينٽي ميٽر (cm)</string>
+    <string name="measurement_garment_type">ڪپڙي جو قسم</string>
+    <string name="measurement_custom_garment_hint">مخصوص ڪپڙي جو نالو</string>
+    <string name="measurement_add_custom_field">اضافي ماپ شامل ڪريو</string>
+    <string name="measurement_field_name_hint">خاني جو نالو (مثال: دامن)</string>
+    <string name="measurement_field_value_hint">ماپ</string>
+    <string name="measurement_immutability_note">پراڻن آرڊرن جي حفاظت لاءِ محفوظ ماپ تبديل ناهن ٿيندا. ترميم تي نسخو %1$d ٺهندو.</string>
+    <string name="measurement_empty">هن گراهڪ لاءِ اڃا ڪو به ماپ محفوظ ناهي.</string>
+    <string name="garment_shalwar_kameez">شلوار قميص</string>
+    <string name="garment_shirt">شرٽ</string>
+    <string name="garment_pant_trouser">پينٽ / ٽرائوزر</string>
+    <string name="garment_waistcoat">واسڪوٽ</string>
+    <string name="garment_coat_jacket">ڪوٽ / جيڪٽ</string>
+    <string name="garment_kurta">ڪرتو</string>
+    <string name="garment_custom">ٻيو مخصوص ڪپڙو</string>
+
+    <!-- Standard Measurement Fields -->
+    <string name="m_length">لمبائي</string>
+    <string name="m_shoulder">تيرو (Shoulder)</string>
+    <string name="m_sleeve">ٻانهن (Sleeve)</string>
+    <string name="m_chest">ڇاتي (Chest)</string>
+    <string name="m_waist">چيلهه (Waist)</string>
+    <string name="m_hip">هپ (Hip)</string>
+    <string name="m_collar">ڪالر / ڳلو</string>
+    <string name="m_cuff">ڪف</string>
+    <string name="m_daman">دامن / گهيرو</string>
+    <string name="m_armhole">موڍو (Armhole)</string>
+    <string name="m_shalwar_length">شلوار / پينٽ لمبائي</string>
+    <string name="m_pancha">پائنچو</string>
+    <string name="m_thigh">ران (Thigh)</string>
+    <string name="m_inseam">اندروني لمبائي</string>
+
+    <!-- 6. TAILORING ORDERS & PREFERENCES -->
+    <string name="orders_title">سلائي آرڊر</string>
+    <string name="orders_search_hint">آرڊر نمبر يا گراهڪ ڳوليو</string>
+    <string name="order_create_title">نئون سلائي آرڊر</string>
+    <string name="order_edit_title">آرڊر %1$s جي ترميم</string>
+    <string name="order_detail_title">آرڊر %1$s</string>
+    <string name="order_number_label">آرڊر نمبر</string>
+    <string name="order_select_customer">گراهڪ چونڊيو *</string>
+    <string name="order_quantity_label">تعداد *</string>
+    <string name="order_stitching_price_label">سلائي جي ڪل رقم (PKR) *</string>
+    <string name="order_advance_payment_label">شروعاتي پيشگي (PKR)</string>
+    <string name="order_remaining_balance_label">باقي رهيل رقم</string>
+    <string name="order_date_label">آرڊر جي تاريخ</string>
+    <string name="order_delivery_date_label">واپسي جي تاريخ</string>
+    <string name="order_overdue_badge">مدت گذريل</string>
+    <string name="order_preferences_title">سلائي ۽ ڊيزائن جون ترجيحون</string>
+    <string name="pref_collar_style">ڪالر جو انداز</string>
+    <string name="pref_front_design">اڳيون پٽي ڊيزائن</string>
+    <string name="pref_cuffs">ڪف</string>
+    <string name="pref_pockets">کيسا</string>
+    <string name="pref_sleeves">ٻانهون</string>
+    <string name="pref_bottom_style">دامن / هيٺيون انداز</string>
+    <string name="pref_fit">فٽنگ</string>
+    <string name="pref_embroidery">ڪڙهائي</string>
+    <string name="pref_additional_instructions">اضافي هدايتون</string>
+    <string name="pref_add_custom_option">مخصوص ڊيزائن شامل ڪريو</string>
+    <string name="pref_custom_option_name">آپشن جو نالو</string>
+    <string name="pref_custom_option_value">تفصيل</string>
+    <string name="orders_empty_title">ڪو به آرڊر نه مليو</string>
+    <string name="orders_empty_subtitle">نئون آرڊر ٺاهيو يا فلٽر تبديل ڪريو.</string>
+    <string name="order_status_change_confirm">صورتحال تبديل ڪري %1$s ڪجي؟</string>
+
+    <!-- Order Statuses -->
+    <string name="status_draft">مسودو</string>
+    <string name="status_confirmed">تصديق ٿيل</string>
+    <string name="status_in_progress">تياري هيٺ</string>
+    <string name="status_ready">تيار</string>
+    <string name="status_delivered">حوالي ڪيل</string>
+    <string name="status_cancelled">منسوخ</string>
+    <string name="filter_overdue">مدت گذريل</string>
+
+    <!-- 7. PAYMENTS & RECEIPTS -->
+    <string name="payments_title">ادائگيون ۽ رسيدون</string>
+    <string name="payment_record_title">ادائگي درج ڪريو</string>
+    <string name="payment_refund_title">واپسي / درستي درج ڪريو</string>
+    <string name="payment_amount_label">رقم (PKR) *</string>
+    <string name="payment_type_label">ادائگي جو قسم</string>
+    <string name="payment_method_label">طريقو</string>
+    <string name="payment_other_method_hint">طريقي جو نالو لکو</string>
+    <string name="payment_note_hint">نوٽ / حوالو</string>
+    <string name="payment_receipt_title">ادائگي جي رسيد</string>
+    <string name="payment_receipt_number">رسيد نمبر</string>
+    <string name="payment_history_title">ادائگين جو رڪارڊ</string>
+    <string name="payment_history_immutable_note">درج ٿيل ادائگي ڊاهي نٿي سگهجي. غلطي سڌارڻ لاءِ واپسي / درستي استعمال ڪريو.</string>
+    <string name="payment_duplicate_confirm_title">ممڪن ورجايل ادائگي</string>
+    <string name="payment_duplicate_confirm_body">هن آرڊر لاءِ %2$s ذريعي PKR %1$d جي ادائگي تازو درج ٿي آهي. ڇا هي هڪ الڳ قسط آهي؟</string>
+    <string name="payment_exceeds_balance_warning">رقم باقي رهيل بيلنس PKR %1$d کان وڌيڪ آهي.</string>
+    <string name="payment_total_paid">ڪل ادا ڪيل</string>
+    <string name="payment_net_paid">خالص وصولي</string>
+    <string name="payment_type_advance">پيشگي</string>
+    <string name="payment_type_installment">قسط</string>
+    <string name="payment_type_final">آخري ادائگي</string>
+    <string name="payment_type_refund">واپسي (Refund)</string>
+    <string name="payment_type_adjustment">درستي</string>
+    <string name="method_cash">روڪ رقم (Cash)</string>
+    <string name="method_bank_transfer">بئنڪ ٽرانسفر</string>
+    <string name="method_mobile_wallet">موبائل والٽ (JazzCash/Easypaisa)</string>
+    <string name="method_card">ڪارڊ</string>
+    <string name="method_other">ٻيو</string>
+
+    <!-- 8. READY-MADE INVENTORY -->
+    <string name="inventory_title">تيار مال اسٽاڪ</string>
+    <string name="inventory_search_hint">شيءِ، SKU يا رنگ ڳوليو</string>
+    <string name="inventory_add_product">نئين شيءِ شامل ڪريو</string>
+    <string name="inventory_edit_product">شيءِ جي ترميم</string>
+    <string name="product_name_label">شيءِ جو نالو *</string>
+    <string name="product_category_label">ڪيٽيگري *</string>
+    <string name="product_custom_category_hint">مخصوص ڪيٽيگري جو نالو</string>
+    <string name="product_size_label">سائيز</string>
+    <string name="product_color_label">رنگ</string>
+    <string name="product_cost_price_label">خريد قيمت (PKR) *</string>
+    <string name="product_selling_price_label">وڪرو قيمت (PKR) *</string>
+    <string name="product_quantity_label">اسٽاڪ تعداد *</string>
+    <string name="product_low_stock_threshold">گهٽ اسٽاڪ جي حد</string>
+    <string name="product_low_stock_badge">اسٽاڪ گهٽ</string>
+    <string name="product_out_of_stock_badge">اسٽاڪ ختم</string>
+    <string name="inventory_sell_btn">وڪرو</string>
+    <string name="inventory_restock_btn">اسٽاڪ وڌايو</string>
+    <string name="inventory_adjust_btn">درستي</string>
+    <string name="inventory_movements_title">اسٽاڪ چرپر جو رڪارڊ</string>
+    <string name="inventory_empty_title">اسٽاڪ ۾ ڪا شيءِ ناهي</string>
+    <string name="inventory_empty_subtitle">اسٽاڪ ۽ وڪرو رکڻ لاءِ تيار شرٽون، پينٽون، جيڪٽون يا سوئيٽر شامل ڪريو.</string>
+    <string name="category_shirts">شرٽون</string>
+    <string name="category_pants_trousers">پينٽ ۽ ٽرائوزر</string>
+    <string name="category_jackets">جيڪٽون</string>
+    <string name="category_sweaters">سوئيٽر</string>
+    <string name="category_custom">مخصوص ڪيٽيگري</string>
+    <string name="movement_initial">شروعاتي اسٽاڪ</string>
+    <string name="movement_restock">نئون اسٽاڪ</string>
+    <string name="movement_sale">وڪرو</string>
+    <string name="movement_return">واپسي</string>
+    <string name="movement_adjustment">اسٽاڪ درستي</string>
+    <string name="insufficient_stock_error">اسٽاڪ ۾ ايترو مال موجود ناهي (%1$d باقي).</string>
+
+    <!-- 9. EXPENSES & REPORTS -->
+    <string name="more_title">ماليات، بيڪ اپ ۽ سيٽنگون</string>
+    <string name="expenses_title">دڪان جا خرچ</string>
+    <string name="expense_add_title">خرچ شامل ڪريو</string>
+    <string name="expense_title_label">خرچ جو تفصيل *</string>
+    <string name="expense_category_label">قسم</string>
+    <string name="expense_amount_label">رقم (PKR) *</string>
+    <string name="expense_period_daily">اڄ</string>
+    <string name="expense_period_weekly">گذريل 7 ڏينهن</string>
+    <string name="expense_period_monthly">هن مهيني</string>
+    <string name="expense_cat_rent">دڪان جو ڪرايو</string>
+    <string name="expense_cat_electricity">بجلي / بل</string>
+    <string name="expense_cat_supplies">ڌاڳو، بٽڻ ۽ سامان</string>
+    <string name="expense_cat_wages">ڪاريگرن جي مزدوري</string>
+    <string name="expense_cat_maintenance">مشين جي مرمت</string>
+    <string name="expense_cat_hospitality">چانهه پاڻي</string>
+    <string name="expense_cat_other">ٻيو خرچ</string>
+    <string name="expenses_empty">هن عرصي ۾ ڪو خرچ درج ناهي.</string>
+
+    <string name="reports_title">ڪاروباري رپورٽون</string>
+    <string name="report_sales_summary">وڪري ۽ آمدني جو خلاصو</string>
+    <string name="report_tailoring_revenue">سلائي آرڊرن جي ڪل قيمت</string>
+    <string name="report_payments_collected">وصول ٿيل رقم</string>
+    <string name="report_readymade_sales">تيار مال جو وڪرو</string>
+    <string name="report_total_expenses">ڪل خرچ</string>
+    <string name="report_net_cash_flow">خالص روڪ حساب</string>
+    <string name="report_estimated_profit">اندازي منافعو (وصولي + وڪرو - خرچ)</string>
+    <string name="report_outstanding_orders">باقي رهيل رقمون</string>
+    <string name="report_pending_orders">هلندڙ آرڊر</string>
+    <string name="report_overdue_orders">مدت گذريل آرڊر</string>
+    <string name="report_inventory_summary">اسٽاڪ جي ماليت</string>
+    <string name="report_inventory_units">ڪل عدد</string>
+    <string name="report_inventory_cost_value">خريد ماليت</string>
+    <string name="report_inventory_retail_value">وڪرو ماليت</string>
+
+    <!-- 10. BACKUP & RECOVERY -->
+    <string name="backup_title">بيڪ اپ ۽ بحالي</string>
+    <string name="backup_warning_card_title">مقامي بيڪ اپ بابت اهم اطلاع</string>
+    <string name="backup_warning_card_body">ساڳئي فون تي رکيل بيڪ اپ فون گم ٿيڻ، چوري ٿيڻ يا خراب ٿيڻ کان بچائي نٿو سگهي. ڪو به نظام مڪمل نقصان کان بچاءَ جي ضمانت نٿو ڏئي سگهي جيستائين نقل ٻاهر محفوظ نه هجي. باقاعدي سان ٻاهرين اسٽوريج يا SD ڪارڊ تي ايڪسپورٽ ڪريو.</string>
+    <string name="backup_create_now">فوري مقامي بيڪ اپ ٺاهيو</string>
+    <string name="backup_export_external">بيڪ اپ ٻاهر محفوظ ڪريو (.atbackup)</string>
+    <string name="backup_import_external">بيڪ اپ فائل چونڊيو ۽ جاچيو</string>
+    <string name="backup_auto_schedule_title">خودڪار مقامي بيڪ اپ</string>
+    <string name="backup_schedule_daily">روزانو</string>
+    <string name="backup_schedule_every_3_days">هر 3 ڏينهن</string>
+    <string name="backup_schedule_weekly">هفتيوار</string>
+    <string name="backup_schedule_off">بند</string>
+    <string name="backup_free_space">خالي اسٽوريج: %1$s</string>
+    <string name="backup_last_status">آخري بيڪ اپ: %1$s</string>
+    <string name="backup_never">ڪڏهن به نه</string>
+    <string name="backup_generations_title">محفوظ ٿيل بيڪ اپ نسخا</string>
+    <string name="backup_safety_badge">حفاظتي بيڪ اپ</string>
+    <string name="backup_auto_badge">خودڪار</string>
+    <string name="backup_manual_badge">دستي</string>
+    <string name="backup_restore_btn">بحال ڪريو</string>
+    <string name="backup_preview_title">بحاليءَ کان اڳ جائزي</string>
+    <string name="backup_preview_warning">بحال ڪرڻ سان موجوده رڪارڊ هن بيڪ اپ سان تبديل ٿي ويندا. اڳ ۾ موجوده ڊيٽا جو حفاظتي بيڪ اپ خودڪار ٺهندو.</string>
+    <string name="backup_confirm_restore">حفاظتي بيڪ اپ ٺاهي بحال ڪريو</string>
+    <string name="backup_corrupted_title">بيڪ اپ فائل درست ناهي</string>
+    <string name="backup_corrupted_body">هي فائل SQLite يا SHA-256 چيڪ سم ۾ ناڪام رهي آهي ۽ بحال نٿي ڪري سگهجي. موجوده ڊيٽا محفوظ آهي.</string>
+    <string name="backup_only_valid_guard">آخري باقي بچيل صحيح بيڪ اپ ڊاهي نٿو سگهجي.</string>
+    <string name="backup_restore_success">ڊيٽا ڪاميابيءَ سان بحال ٿي وئي. حفاظتي بيڪ اپ محفوظ آهي.</string>
+
+    <!-- 11. SETTINGS & LANGUAGE -->
+    <string name="settings_title">دڪان ۽ ٻوليءَ جون سيٽنگون</string>
+    <string name="settings_language_title">ايپ جي ٻولي</string>
+    <string name="language_english">English</string>
+    <string name="language_sindhi">سنڌي (Sindhi)</string>
+    <string name="settings_default_unit">ماپ جو بنيادي ايڪو</string>
+    <string name="settings_shop_details">رسيد لاءِ دڪان جا تفصيل</string>
+    <string name="settings_shop_name">دڪان جو نالو</string>
+    <string name="settings_shop_phone">دڪان جو فون</string>
+    <string name="settings_shop_address">دڪان جو پتو</string>
+    <string name="settings_low_stock_default">گهٽ اسٽاڪ جي بنيادي حد</string>
+</resources>
